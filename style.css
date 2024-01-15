@@ -3,8 +3,8 @@
 :root{
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
-	--main-decor-color:#00a9e2;
-    --main-header-background:#21252e;
+	--main-decor-color:#12e024;
+    --main-header-background:#2f67e9cc;
 	--main-font-family: 'Poppins', sans-serif;
 }
 
@@ -74,7 +74,7 @@ a.nav-link{
 }
 
 .nav-link:hover {
-	color: #000000;
+	color: #242121;
     background: var(--main-decor-color);
 }
 
