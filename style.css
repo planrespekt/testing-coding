@@ -48,8 +48,8 @@ header:hover{
 }
 
 .logo img{
-	padding-top: 5px;
-	height: 80px;
+	padding-top: 10px;
+	height: 60px;
 	cursor: pointer;
 }
 
@@ -261,14 +261,14 @@ footer {
 }
 
 .copyright {
-	color: #fff;
+	color: #51f60a;
 	font-size: 1.2rem;
 	line-height: 40px;
 	text-align: center;
 }
 
 .copyright a{
-	color: #fff;
+	color: #7ef309f0;
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;

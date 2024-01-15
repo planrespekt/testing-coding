@@ -23,7 +23,7 @@ const navSlide = () => {
       //Animation links
 	 navLinks.forEach((link, index) => {
 		if (link.style.animation) {
-			link.style.animation = "";
+			link.style.animation = "https://www.canva.com/design/DAF3Uzbdc64/TbsAXp6yr0JakggbJ2hYOw/edit?utm_content=DAF3Uzbdc64&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
 		} else {
 			link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7+1}s`;
 		   }
