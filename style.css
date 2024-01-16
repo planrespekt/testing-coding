@@ -155,7 +155,7 @@ a.nav-link{
 }
 
 .social-media  a:hover {
-	color: var(--main-decor-color);
+	color: #f5740af0;
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 
