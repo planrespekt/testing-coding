@@ -64,7 +64,7 @@ a.nav-link{
 	margin: 2px;
 	padding: 5px 10px;
 	text-decoration: none;
-	color:  #f5740af0;
+	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
 	cursor: pointer;
 	text-transform: uppercase;
