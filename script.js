@@ -9,6 +9,7 @@ $(window).on('scroll', function(){
 	}
 	   
 })
+ 
 
 //hamburger
 const navSlide = () => {
@@ -18,8 +19,7 @@ const navSlide = () => {
 
      hamburger.onclick = () => {
 		
-	 navbar.classList.toggle("nav-active");
-		 
+	 navbar.classList.toggle("nav-active"); 
       //Animation links
 	 navLinks.forEach((link, index) => {
 		if (link.style.animation) {

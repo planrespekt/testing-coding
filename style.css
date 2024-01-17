@@ -16,7 +16,7 @@
 
 main{
 	padding: 0;
-	width: 100%;
+	max-width: fit-content;
 	height: 100%;
 	background: var(--main-background);
 }
@@ -59,11 +59,12 @@ header:hover{
 	display: inline-flex;
 }
 
+
 a.nav-link{
 	margin: 2px;
 	padding: 5px 10px;
 	text-decoration: none;
-	color: var(--main-fonts-color);
+	color:  #f5740af0;
 	font-family: var(--main-font-family);
 	cursor: pointer;
 	text-transform: uppercase;
@@ -84,7 +85,7 @@ a.nav-link{
 
 #home{ 	
 	margin: auto;
-	height: 100vh;
+	max-height: max-content;
 	color: var(--main-fonts-color);
 	display: flex;
 	flex-direction: column;
@@ -105,11 +106,12 @@ a.nav-link{
 }  
 
 .intro {
+	max-height: fit-content; 
 	text-align:center;
     color: var(--main-fonts-color);
 	z-index: 1;
 	margin: auto;
-	padding: 20px;
+	padding: 85px;
 }
 
 .intro  p{
@@ -155,7 +157,7 @@ a.nav-link{
 }
 
 .social-media  a:hover {
-	color: var(--main-decor-color);
+	color: #f5740af0;
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 
@@ -211,7 +213,7 @@ a.nav-link{
 	text-align: center;
 	padding: 10px 5px;
 	font-size: 1rem;
-	color: var(--main-fonts-color);
+	color: #f5740af0;
 	font-family: var(--main-font-family);
 	cursor: pointer;
 }
@@ -268,7 +270,7 @@ footer {
 }
 
 .copyright a{
-	color: #7ef309f0;
+	color: #f5740af0;
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;
